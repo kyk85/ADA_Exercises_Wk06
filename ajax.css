@@ -1,0 +1,57 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#information {
+	padding:30px;
+	margin:0px 300px;
+	min-width:400px;
+	background-color: #86cccc;
+	border: 2px solid lightgrey;
+	border-radius:25%;
+}
+#information p {
+	text-align: center;
+}
+
+#information img {
+	display:block;
+	margin:auto;
+	border: 2px solid orange;
+	border-radius: 50%;
+}
+
+#like {
+	background-color: green;
+	color:white;
+}
+
+#skip {
+	background-color: red;
+	color: white;
+}
+
+.separator {
+	border:1px solid darkgrey;
+}
+
+table {
+	border-collapse:collapse;
+	width:100%;
+
+}
+
+table th {
+	background-color:darkgrey;
+	color:white;
+}
+
+table tr:nth-child(odd) {
+	background-color:lightgrey;
+}
+
+table tr:hover {
+	background-color: black;
+	color:white;
+}
+
